@@ -1,0 +1,4 @@
+AnimeVault FINAL CLEAN
+Native Flutter Android APK build
+Build workflow: android-debug
+Artifact: build/app/outputs/flutter-apk/app-debug.apk

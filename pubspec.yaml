@@ -1,0 +1,38 @@
+name: animevault_native
+description: Native AnimeVault mobile app rebuilt from the AnimeVault web app feature set.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+  flutter: '>=3.24.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.5.0
+  shared_preferences: ^2.5.3
+  cached_network_image: ^3.4.1
+  url_launcher: ^6.3.2
+  file_picker: ^10.3.3
+  share_plus: ^12.0.1
+  intl: ^0.20.2
+  pdf: ^3.11.3
+  printing: ^5.14.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon-192.png
+
+flutter_launcher_icons:
+  android: true
+  image_path: assets/icon-192.png
+  adaptive_icon_background: '#0B1020'
+  adaptive_icon_foreground: assets/icon-192.png
